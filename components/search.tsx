@@ -76,7 +76,7 @@ const Search_unstyled = (props: Props) => {
 
     return (
         <form className={props.className}>
-            <Logo onClick={() => {router.push("/")}} primary='purple' secondary='green' size={props.size =='big' ? 60:40}>Bolso<span>data</span></Logo>
+            <Logo onClick={() => {router.push("/")}} primary='purple' secondary='green' size={props.size =='big' ? 60:40}>Next<span>search</span></Logo>
             <div className='search-bar'>
                 <SearchIcon className='search-icon'/>
                 <input value={input} onChange={e => setInput(e.target.value)}/>
