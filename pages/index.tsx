@@ -38,7 +38,7 @@ const Home: NextPage = () => {
           />
           <Search size="big"/>
       </div>
-      <div className={syles.message}>Menságem</div>
+      <div className={styles.message}>Menságem</div>
     </>
   )
 }
