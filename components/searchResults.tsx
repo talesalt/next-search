@@ -92,7 +92,7 @@ const SearchResults = (props: Props) => {
 const SearchResult = styled(SearchResult_unstyled)`
     ${container}
     margin-top: 1.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
     div{
         max-width: 41rem;
     }
