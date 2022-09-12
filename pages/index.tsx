@@ -38,7 +38,7 @@ const Home: NextPage = () => {
           />
           <Search size="big"/>
       </div>
-      <div className={styles.message}>Menságem</div>
+      <div className={styles.message}>*usage is limited to 100 requests per day</div>
     </>
   )
 }
