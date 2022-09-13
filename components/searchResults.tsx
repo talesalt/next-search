@@ -80,7 +80,7 @@ const SearchResults = (props: Props) => {
                     )
                 })}
                 <div className="paginations">
-                    <Pagination page={1+((req.queries.request[0].startIndex - 1) / req.queries.request[0].count)} count={parseInt(req.searchInformation.totalResults)} onChange={handleChange} shape="rounded" />
+                    <Pagination page={1+((req.queries.request[0].startIndex - 1) / req.queries.request[0].count)} count={10} onChange={handleChange} shape="rounded" />
                 </div>
             </>
         )
